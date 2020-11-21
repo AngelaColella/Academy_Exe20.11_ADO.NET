@@ -9,6 +9,7 @@ namespace Esercitazione20._11
     {
         // dichiarazione della stringa di connessione
         const string connectionString = @"Persist Security Info = False; Integrated Security = True; Initial Catalog = Polizia; Server = WINAPIUZIYVIF6L\SQLEXPRESS";
+        // string query = "SELECT * FROM Agente INNER JOIN Agente_Area ON IDAgente = ID WHERE IDArea = @IDarea";
 
         public static void GetDatiAgenteByArea()
         {
